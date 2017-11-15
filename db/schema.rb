@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 20171115094907) do
     t.string "last_name"
     t.string "first_name"
     t.string "image"
+    t.string "oauth_token"
     t.datetime "remember_created_at"
     t.integer "sign_in_count", default: 0, null: false
     t.datetime "current_sign_in_at"
